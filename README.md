@@ -6,3 +6,4 @@ Seguindo alguns requesitos para criar um decodificador de texto usando os conhec
  Funcionar somente com letras minúsculas e sem acento.
  
  Este projeto NÃO está responsivo.
+ Ele não esta adaptado para tablet nem celular.
