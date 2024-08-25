@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body >
+    <header> 
+    <img class="logo__alura" src="lupalaranja.png" alt="lupalaranja">
+    </header>
+    <main>
+        <section>
+            <textarea class="texto__area"  cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
+          <div class="informacao">
+            <h6>Apenas letras minúsculas e sem acento.</h6>
+          </div>
+          <div class="botoes">
+            <button class="btn__encriptar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="btn__desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+          </div>
+        </section>
+
+        <section>
+            <textarea class="mensagem" cols="50" rows="52"></textarea>
+            
+            <h3 class="mensagem__textox">Digite um texto que você deseja criptografar
+            ou descriptografar.</h3>
+            <button class="btn__copiar"  onclick="btnCopiar()">Copiar</button>
+        </section>
+    </main>
+    <footer class="rodape">
+      <h3>desenvolvido por keila birck 2024</h3>
+      <a href="https://github.com/maikeyla" target="blank"><img class="link" src="icone-github-orange.png" alt="icone github"></a>
+      
+     
+
+    
+    </footer>
+    <script src="app.js" ></script>
+</body >
+</html>
